@@ -16,5 +16,13 @@
         "psr-4": {
             "Nowfel\\TextFoundationBundle\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nowfel\\TextFoundationBundle\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^5.2"
     }
 }
